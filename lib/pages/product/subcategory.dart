@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant/pages/product/product.dart';
+import 'package:flutter_rest/pages/product/product.dart';
 
 class SubCategory extends StatefulWidget {
   final String cat_id;

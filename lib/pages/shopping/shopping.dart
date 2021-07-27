@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/account/myprofile.dart';
-import 'package:restaurant/pages/function.dart';
-import 'package:restaurant/pages/home/home.dart';
-import 'package:restaurant/pages/provider/cart.dart';
-import 'package:restaurant/pages/provider/item.dart';
+import 'package:flutter_rest/pages/account/myprofile.dart';
+import 'package:flutter_rest/pages/function.dart';
+import 'package:flutter_rest/pages/home/home.dart';
+import 'package:flutter_rest/pages/provider/cart.dart';
+import 'package:flutter_rest/pages/provider/item.dart';
 
 import '../config.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant/pages/config.dart';
-import 'package:restaurant/pages/tips/tips.dart';
+import 'package:flutter_rest/pages/config.dart';
+import 'package:flutter_rest/pages/tips/tips.dart';
 
 class GetStart extends StatefulWidget {
   @override

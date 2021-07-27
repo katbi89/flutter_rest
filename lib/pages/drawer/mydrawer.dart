@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant/pages/account/changepassword.dart';
-import 'package:restaurant/pages/account/login.dart';
-import 'package:restaurant/pages/account/myprofile.dart';
-import 'package:restaurant/pages/bill/bill.dart';
-import 'package:restaurant/pages/favorite/favorite.dart';
-import 'package:restaurant/pages/order/tracking.dart';
-import 'package:restaurant/pages/product/category.dart';
-import 'package:restaurant/pages/shopping/shopping.dart';
+import 'package:flutter_rest/pages/account/changepassword.dart';
+import 'package:flutter_rest/pages/account/login.dart';
+import 'package:flutter_rest/pages/account/myprofile.dart';
+import 'package:flutter_rest/pages/bill/bill.dart';
+import 'package:flutter_rest/pages/favorite/favorite.dart';
+import 'package:flutter_rest/pages/order/tracking.dart';
+import 'package:flutter_rest/pages/product/category.dart';
+import 'package:flutter_rest/pages/shopping/shopping.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config.dart';
@@ -40,11 +40,11 @@ class _MyDrawerState extends State<MyDrawer> {
             children: <Widget>[
               UserAccountsDrawerHeader(
                 accountName: Text(
-                  "Thaer",
+                  "Bilal",
                   style: TextStyle(fontSize: 20.0, color: Colors.black),
                 ),
                 accountEmail: Text(
-                  "thaer@gmail.com",
+                  "katbi89@gmail.com",
                   style: TextStyle(color: Colors.grey),
                 ),
                 currentAccountPicture: GestureDetector(

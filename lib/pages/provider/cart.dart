@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/cupertino.dart';
-import 'package:restaurant/pages/provider/item.dart';
+import 'package:flutter_rest/pages/provider/item.dart';
 
 class Cart with ChangeNotifier {
   List<Item> items = [];

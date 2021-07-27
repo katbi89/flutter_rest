@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/account/login.dart';
-import 'package:restaurant/pages/component/progress.dart';
-import 'package:restaurant/pages/home/home.dart';
-import 'package:restaurant/pages/provider/loading.dart';
+import 'package:flutter_rest/pages/account/login.dart';
+import 'package:flutter_rest/pages/component/progress.dart';
+import 'package:flutter_rest/pages/home/home.dart';
+import 'package:flutter_rest/pages/provider/loading.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:toast/toast.dart';
 

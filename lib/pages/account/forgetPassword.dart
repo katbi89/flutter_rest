@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant/pages/account/register.dart';
+import 'package:flutter_rest/pages/account/register.dart';
 
 class ForgetPassword extends StatefulWidget {
   @override

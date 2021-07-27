@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/config.dart';
-import 'package:restaurant/pages/product/productData.dart';
-import 'package:restaurant/pages/provider/cart.dart';
-import 'package:restaurant/pages/provider/item.dart';
-import 'package:restaurant/pages/shopping/shopping.dart';
+import 'package:flutter_rest/pages/config.dart';
+import 'package:flutter_rest/pages/product/productData.dart';
+import 'package:flutter_rest/pages/provider/cart.dart';
+import 'package:flutter_rest/pages/provider/item.dart';
+import 'package:flutter_rest/pages/shopping/shopping.dart';
 
 class ProductDetail extends StatefulWidget {
   final FoodData food;

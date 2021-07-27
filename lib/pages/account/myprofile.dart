@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:restaurant/pages/account/login.dart';
+import 'package:flutter_rest/pages/account/login.dart';
 
 class MyProfile extends StatefulWidget {
   @override

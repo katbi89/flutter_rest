@@ -1,4 +1,4 @@
-import "package:restaurant/pages/config.dart";
+import "package:flutter_rest/pages/config.dart";
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:convert';
@@ -11,7 +11,7 @@ Future<bool> SaveData(Map arrInsert, String urlPage, BuildContext context,
     Widget Function() movePage, String type) async {
   String url = path_api + "${urlPage}?token=" + token;
 
-  http.Response respone = await http.post(url, body: arrInsert);
+  http.Response respone = await http.post(Uri.parse(url), body: arrInsert);
   if (json.decode(respone.body)["code"] == "200") {
     if (type == "insert") {
       Navigator.push(
@@ -31,7 +31,7 @@ Future<Map> SaveDataList(
     Map arrInsert, String urlPage, BuildContext context, String type) async {
   String url = path_api + "${urlPage}?token=" + token;
 
-  http.Response respone = await http.post(url, body: arrInsert);
+  http.Response respone = await http.post(Uri.parse(url), body: arrInsert);
   print(respone.body);
   if (json.decode(respone.body)["code"] == "200") {
     Map arr = json.decode(respone.body)["message"];
@@ -92,7 +92,7 @@ Future<List> getData(
       "${urlPage}?${param}txtsearch=${strSearch}&start=${start}&end=${end}&token=" +
       token;
   print(url);
-  http.Response respone = await http.post(url);
+  http.Response respone = await http.post(Uri.parse(url));
 
   if (json.decode(respone.body)["code"] == "200") {
     {
@@ -108,7 +108,7 @@ Future<List> getData(
 Future<bool> deleteData(String col_id, String val_id, String urlPage) async {
   String url = path_api + "${urlPage}?${col_id}=${val_id}&token=" + token;
   print(url);
-  http.Response respone = await http.post(url);
+  http.Response respone = await http.post(Uri.parse(url));
 
   if (json.decode(respone.body)["code"] == "200") {
     return true;

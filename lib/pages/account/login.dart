@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/account/forgetPassword.dart';
-import 'package:restaurant/pages/account/register.dart';
-import 'package:restaurant/pages/component/progress.dart';
-import 'package:restaurant/pages/home/home.dart';
-import 'package:restaurant/pages/provider/loading.dart';
+import 'package:flutter_rest/pages/account/forgetPassword.dart';
+import 'package:flutter_rest/pages/account/register.dart';
+import 'package:flutter_rest/pages/component/progress.dart';
+import 'package:flutter_rest/pages/home/home.dart';
+import 'package:flutter_rest/pages/provider/loading.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:toast/toast.dart';
 

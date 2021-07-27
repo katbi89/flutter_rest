@@ -1,8 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/bill/detail_bill.dart';
-import 'package:restaurant/pages/provider/loading.dart';
+import 'package:flutter_rest/pages/bill/detail_bill.dart';
+import 'package:flutter_rest/pages/provider/loading.dart';
 import '../config.dart';
 import '../function.dart';
 import 'billData.dart';

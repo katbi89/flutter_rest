@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/config.dart';
-import 'package:restaurant/pages/function.dart';
-import 'package:restaurant/pages/product/productData.dart';
-import 'package:restaurant/pages/product/product_detail.dart';
-import 'package:restaurant/pages/provider/loading.dart';
+import 'package:flutter_rest/pages/config.dart';
+import 'package:flutter_rest/pages/function.dart';
+import 'package:flutter_rest/pages/product/productData.dart';
+import 'package:flutter_rest/pages/product/product_detail.dart';
+import 'package:flutter_rest/pages/provider/loading.dart';
 
 List<FoodData> foodList = null;
 

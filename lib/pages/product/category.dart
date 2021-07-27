@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:restaurant/pages/product/product.dart';
-import 'package:restaurant/pages/product/subcategory.dart';
+import 'package:flutter_rest/pages/product/product.dart';
+import 'package:flutter_rest/pages/product/subcategory.dart';
 
 import '../config.dart';
 import '../function.dart';

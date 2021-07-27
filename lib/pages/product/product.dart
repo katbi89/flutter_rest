@@ -3,10 +3,10 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/component/progress.dart';
-import 'package:restaurant/pages/product/productData.dart';
-import 'package:restaurant/pages/product/product_detail.dart';
-import 'package:restaurant/pages/provider/loading.dart';
+import 'package:flutter_rest/pages/component/progress.dart';
+import 'package:flutter_rest/pages/product/productData.dart';
+import 'package:flutter_rest/pages/product/product_detail.dart';
+import 'package:flutter_rest/pages/provider/loading.dart';
 
 import '../config.dart';
 import '../function.dart';

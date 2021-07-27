@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:restaurant/pages/home/home.dart';
-import 'package:restaurant/pages/provider/cart.dart';
-import 'package:restaurant/pages/provider/loading.dart';
-import 'package:restaurant/pages/tips/getStart.dart';
-import 'package:restaurant/pages/tips/tips.dart';
+import 'package:flutter_rest/pages/home/home.dart';
+import 'package:flutter_rest/pages/provider/cart.dart';
+import 'package:flutter_rest/pages/provider/loading.dart';
+import 'package:flutter_rest/pages/tips/getStart.dart';
+import 'package:flutter_rest/pages/tips/tips.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:splashscreen/splashscreen.dart';
-import 'package:restaurant/pages/config.dart';
+import 'package:flutter_rest/pages/config.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:page_indicator/page_indicator.dart';
-import 'package:restaurant/pages/account/login.dart';
-import 'package:restaurant/pages/account/register.dart';
+import 'package:flutter_rest/pages/account/login.dart';
+import 'package:flutter_rest/pages/account/register.dart';
 
-import 'package:restaurant/pages/config.dart';
+import 'package:flutter_rest/pages/config.dart';
 
 class Tips extends StatefulWidget {
   @override
